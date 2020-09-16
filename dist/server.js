@@ -1,8 +1,10 @@
 "use strict";
 
+require("@babel/polyfill");
+
 var _express = _interopRequireDefault(require("express"));
 
-var _config = _interopRequireDefault(require("../src/config"));
+var _config = _interopRequireDefault(require("./config.js"));
 
 var _dotenv = _interopRequireDefault(require("dotenv"));
 

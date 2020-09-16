@@ -1,5 +1,6 @@
+import '@babel/polyfill';
 import express from "express";
-import config from "../src/config";
+import config from "./config.js";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
 import userRoute from "./routers/userRoute";

@@ -9,8 +9,6 @@ import {getToken} from "../util";
 
 
 router.post("/signin", async (req, res) => {
-
-
   const signinUser = await User.findOne({
     email: req.body.email,
     password: req.body.password,
