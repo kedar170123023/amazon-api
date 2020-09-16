@@ -1,5 +1,5 @@
 import express from "express";
-import config from "../config";
+import config from "../src/config";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
 import userRoute from "./routers/userRoute";

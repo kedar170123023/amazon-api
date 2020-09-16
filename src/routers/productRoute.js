@@ -1,7 +1,7 @@
 import express from "express";
 const router = express.Router();
 import Product from "../models/productModel";
-import {isAdmin, isAuth} from '../../util';
+import {isAdmin, isAuth} from '../util';
 
 router.get('/', async (req, res)=>{
   

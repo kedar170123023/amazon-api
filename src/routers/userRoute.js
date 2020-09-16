@@ -1,7 +1,7 @@
 import express from "express";
 const router = express.Router();
 import User from "../models/userModel";
-import {getToken} from "../../util";
+import {getToken} from "../util";
 
 
 
