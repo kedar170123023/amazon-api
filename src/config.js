@@ -6,3 +6,5 @@ export default {
   JWT_SECRET: process.env.JWT_SECRET || "somethingsecret",
   PORT : process.env.PORT || 5000,
 };
+
+  
